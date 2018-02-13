@@ -6,6 +6,7 @@ import {
   multiply,
   dot,
   transpose,
+  norm,
 } from '../math';
 
 export default class Array2D {
@@ -34,6 +35,9 @@ export default class Array2D {
   }
   dot(matrix: Array2D): Array2D {
     return dot(this, matrix);
+  }
+  norm(): number {
+    return norm(this);
   }
   transpose() {
     return transpose(this);

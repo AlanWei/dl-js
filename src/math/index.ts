@@ -6,7 +6,7 @@ import randn from './randn';
 import subtract from './subtract';
 import transpose from './transpose';
 import zeros from './zeros';
-
+import norm from './norm';
 export {
   add,
   subtract,
@@ -16,4 +16,5 @@ export {
   transpose,
   randn,
   zeros,
+  norm,
 };
