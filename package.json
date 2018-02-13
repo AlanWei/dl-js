@@ -7,7 +7,8 @@
     "dev": "copyfiles -f demo/data/*.json dist/demo/data/ && tsc -w --p tsconfig.dev.json",
     "build": "rm -rf dist/ && tsc --p tsconfig.prod.json",
     "test": "rm -rf coverage/ && jest --coverage",
-    "test:watch": "jest --watch --coverage"
+    "test:watch": "jest --watch --coverage",
+    "jest": "jest"
   },
   "repository": {
     "type": "git",
